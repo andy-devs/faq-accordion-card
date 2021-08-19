@@ -60,10 +60,6 @@ body {
 .accordion {
     color: var(--primary-text-dark-blue);
     font-family: inherit;
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: space-between;
     font-size: 0.9rem;
     line-height: 1rem;
     font-weight: 400;
@@ -79,7 +75,8 @@ body {
     transition: 0.4s;
 }
 .accordion img {
-    align-self: flex-end;
+    margin-top: 7px;
+    float: right;
 }
 
 .active {
