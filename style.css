@@ -20,6 +20,8 @@ body {
 	font-size: 12px;
 	font-family: 'Kumbh Sans', sans-serif;
 	background: linear-gradient(var(--gradient-violet), var(--gradient-blue));
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	box-sizing: border-box;
 	height: 100vh;
 }
@@ -142,13 +144,15 @@ body {
 	}
 }
 @media (max-width: 886px) {
+	body {
+		margin-top: 10rem;
+	}
 	img {
 		transform: scale(1.2);
 	}
 	.main-block {
 		padding: 0 0 1.5rem 0;
 		margin: 0 auto;
-		margin-top: 9rem;
 		max-width: 400px;
 		flex-direction: column;
 		align-items: center;
@@ -192,8 +196,26 @@ body {
 	}
 }
 @media (max-width: 330px) {
+	img {
+		transform: scale(1);
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);
+		-ms-transform: scale(1);
+		-o-transform: scale(1);
+	}
 	.content {
 		padding: 0 0.3rem 0 0.3rem;
 		width: 95%;
+	}
+}
+@media (max-width: 320px) {
+	.content__heading {
+		font-size: 1.8rem;
+	}
+	.accordion {
+		font-size: 0.87rem;
+	}
+	.panel p {
+		font-size: 0.75rem;
 	}
 }
