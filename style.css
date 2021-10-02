@@ -125,7 +125,7 @@ body {
 	border-bottom: solid var(--divider-blue);
 }
 .panel p {
-	padding: 0  0 1rem 0;
+	padding: 0 0 1rem 0;
 	color: var(--neutral-text-grayish-blue);
 	font-family: inherit;
 	font-size: 0.83rem;
@@ -143,15 +143,16 @@ body {
 }
 @media (max-width: 886px) {
 	img {
-		transform: scale(1.2)
+		transform: scale(1.2);
 	}
 	.main-block {
 		padding: 0 0 1.5rem 0;
 		margin: 0 auto;
+		margin-top: 9rem;
 		max-width: 400px;
 		flex-direction: column;
 		align-items: center;
-		justify-content: space-around
+		justify-content: space-around;
 	}
 	.images {
 		overflow: visible;
@@ -174,7 +175,7 @@ body {
 		display: none;
 	}
 	.images__bg {
-		display: none;		
+		display: none;
 	}
 	.images__box {
 		display: none;
