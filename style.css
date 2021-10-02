@@ -28,7 +28,7 @@ body {
 	max-width: 900px;
 	flex-direction: row;
 	justify-content: space-between;
-	align-items: flex-start;
+	align-items: center;
 	background-color: white;
 	border-radius: 30px;
 	-webkit-border-radius: 30px;
@@ -50,16 +50,20 @@ body {
 	position: absolute;
 }
 .content {
-	width: 50%;
+	margin: 0rem 6rem 2rem 3rem;
 	font-family: inherit;
-	padding: 2rem;
 }
 .content__heading {
 	font-size: 2.2rem;
 	padding: 2rem 2rem 1rem 0;
 }
 .content__dropdown {
-	width: 75%;
+	width: 100%;
+	transition: all 0.4s ease-out;
+	-webkit-transition: all 0.4s ease-out;
+	-moz-transition: all 0.4s ease-out;
+	-ms-transition: all 0.4s ease-out;
+	-o-transition: all 0.4s ease-out;
 }
 .accordion {
 	color: var(--primary-text-dark-blue);
@@ -76,11 +80,15 @@ body {
 	border: none;
 	outline: none;
 	border-bottom: solid var(--divider-blue);
-	transition: 0.4s;
 }
 .accordion img {
 	margin-top: 7px;
 	float: right;
+	transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
 }
 
 .active {
