@@ -145,8 +145,7 @@ body {
 }
 @media (max-width: 886px) {
 	body {
-		margin: 0 0.4rem;
-		margin-top: 3rem;
+		margin-top: 5rem;
 	}
 	img {
 		transform: scale(1.2);
@@ -197,7 +196,7 @@ body {
 		width: 90%;
 	}
 }
-@media (max-width: 350px) {
+@media (max-width: 330px) {
 	img {
 		transform: scale(1);
 		-webkit-transform: scale(1);
@@ -205,15 +204,12 @@ body {
 		-ms-transform: scale(1);
 		-o-transform: scale(1);
 	}
-	.images {
-		margin-bottom: -4rem;
-	}
 	.content {
-		padding: 0 0.5rem 0 0.5rem;
+		padding: 0 0.3rem 0 0.3rem;
 		width: 95%;
 	}
 }
-@media (max-width: 330px) {
+@media (max-width: 320px) {
 	.content__heading {
 		font-size: 1.8rem;
 	}
