@@ -23,11 +23,11 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	box-sizing: border-box;
-	height: 100vh;
+	min-height: 100vh;
 }
 .main-block {
 	padding: 1rem 0 0 0;
-	margin: 0 1rem 0 4rem;
+	margin: 0 2rem 0 4rem;
 	display: flex;
 	max-width: 900px;
 	flex-direction: row;
@@ -145,7 +145,7 @@ body {
 }
 @media (max-width: 886px) {
 	body {
-		margin-top: 5rem;
+		margin-top: 2.1rem;
 	}
 	img {
 		transform: scale(1.2);
