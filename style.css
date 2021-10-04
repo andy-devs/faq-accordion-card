@@ -145,7 +145,7 @@ body {
 }
 @media (max-width: 886px) {
 	body {
-		margin-top: 10rem;
+		margin-top: 5rem;
 	}
 	img {
 		transform: scale(1.2);
