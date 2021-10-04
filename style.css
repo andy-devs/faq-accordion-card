@@ -124,7 +124,7 @@ body {
 	overflow: hidden;
 	max-height: 0;
 	transition: max-height 0.2s ease-out;
-	border-bottom: solid var(--divider-blue);
+	border-bottom: solid 2.5px var(--divider-blue);
 }
 .panel p {
 	padding: 0 0 1rem 0;
